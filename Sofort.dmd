@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Sofort" id="A0457B0C-2B92-F05E-D244-1D4F89F41B08" version="3.5">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:02:53 UTC</createdTime>
+<ownerDesignName>Alternate Payments Sofort v0.02</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A0457B0C-2B92-F05E-D244-1D4F89F41B08</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="175A314D-77B9-1C40-73FF-C52994A68438">
+<designStoragePath>C:\Designs\SDDM\Sofort</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

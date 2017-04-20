@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ACCOUNTS" directorySegmentName="seg_0" id="D081F60A-D983-3768-8BE5-712A5DE78A67">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:31 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>03244FD7-78B9-007E-88BA-6077079F5612</segment>
+<tableSpace>10CF7216-E858-51B5-30B2-3800ACFC8015</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="0DAC3864-E456-8222-5FA9-ACB609E4A1DF">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_MODIFIED_BY" id="1F523ACD-A25C-4A88-A638-77F365EE0BCF">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_MODIFIED_DATE" id="2129393C-69B0-D6E1-7A97-911731215CF5">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="430A3107-0598-1DF7-FED6-C5CAB9C6F03D">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INTERNAL_ID" id="6585C151-A7A4-1CF7-C7AF-AEF5073ED25C">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="76CEE889-EEDB-803E-BD07-90451252EEC2">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_DATE" id="8F7C47B4-828D-B5E5-D8CF-0BE303768728">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="AAA1B0D8-EBF0-5055-5AC9-27418923E550">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ACCOUNTS_UK" id="121B7563-A53C-3828-E078-0DA586B4F4D0">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<segment>D60238BB-CDAC-9BE0-57C0-1DEFED7AD55B</segment>
+<tableSpace>10CF7216-E858-51B5-30B2-3800ACFC8015</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ACCOUNTS_ACCSTA_FK_I" id="AC109629-FE39-8105-81B2-2736D544EE36">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<segment>D60238BB-CDAC-9BE0-57C0-1DEFED7AD55B</segment>
+<tableSpace>10CF7216-E858-51B5-30B2-3800ACFC8015</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ACCOUNTS_PK" id="DF64F298-7632-29FD-543E-CEA5320EFFB4">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<segment>D60238BB-CDAC-9BE0-57C0-1DEFED7AD55B</segment>
+<tableSpace>10CF7216-E858-51B5-30B2-3800ACFC8015</tableSpace>
+</IndexProxy>
+</indexProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="ACCOUNTS" directorySegmentName="seg_0" id="0A7C4D58-E218-3A08-4EEF-7A6C4E3AE33F">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRTTXN</sourceObjSchema>
+<sourceObjName>ACCOUNTS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:11 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<object>ACCOUNTS</object>
+<objectUser>934EA447-22B6-861E-9365-357E32EDC285</objectUser>
+<user>B9D67DB9-F0F3-F659-DB44-6150030D112F</user>
+<referredObjectID>D081F60A-D983-3768-8BE5-712A5DE78A67</referredObjectID>
+</Synonym>
+</synonyms>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ACCOUNTS_ACCSTA_FK" id="4D8D871E-1E5F-F78D-F4A9-5B2A9FFE81C4">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ACCOUNTS_PK" id="D8ADCDF5-7C03-A448-E49A-63E50DF0077D">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="ACCOUNTS_UK" id="BDD657BC-6092-069B-BD71-4E3339E2FB2D">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SOFORT_PMT_GWY_RESPONSES" directorySegmentName="seg_0" id="352F0E6D-66EF-D9B0-D5C1-3E1A0F2E3BA0">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>03244FD7-78B9-007E-88BA-6077079F5612</segment>
+<tableSpace>10CF7216-E858-51B5-30B2-3800ACFC8015</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CREATED_BY" id="05822E41-6832-06FA-9D8A-B8529BF64BD7">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_DATE" id="09BC05BC-1830-D086-19A0-2C70AC73C4F1">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RAW_RESPONSE" id="1EE3285D-27CF-0BFB-0A4B-EEAF66A10E43">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="1FE3BFC3-D97D-83CD-CCCD-9B303C8A11AF">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_MODIFIED_BY" id="20014809-8351-B9B7-15AD-1F122CF0BAB9">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_MODIFIED" id="34514D56-56A4-266D-B5E6-28338C479FC6">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REDIRECT_URL" id="38AE5034-BB01-0269-3EE5-1DD8AEABBB56">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REFUND_PARTIAL_ID" id="40D8021F-AA2A-1534-417A-F960A158D3D8">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_MODIFIED_DATE" id="4C0B1927-62B1-266D-B5EB-55F72F2CDA24">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ERROR_MESSAGE" id="4C9666B7-FDBB-30F7-5331-D8E0863FF19E">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOFORT_ID" id="5E15E5C9-15BD-8683-4AC7-CE9C777CC382">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="8017F129-D6D8-D6B6-F952-225B7C5E2B1B">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYMENT_TYPE" id="AB765964-1722-937A-274C-2EA9D79D9E17">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REFUND_TIMESTAMP" id="BCAB2EF5-0B3D-8F71-8105-3D0CF7237C51">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="C4098476-A446-864C-64F1-C37A4F032C2F">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INTERNAL_ID" id="D7D80157-7956-DC23-6608-683A8FBE1136">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESULT_CODE" id="EB677C31-A62D-F053-3523-A0F6920C6908">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_REASON" id="EE5E113E-95DF-77DB-D1AB-CF402C629895">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SOFPMTGWYRES_PK" id="066AF0F1-7129-0F87-B675-2604D2FEE736">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<segment>D60238BB-CDAC-9BE0-57C0-1DEFED7AD55B</segment>
+<tableSpace>10CF7216-E858-51B5-30B2-3800ACFC8015</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SOFPMTGWYRES_UK" id="25E45E52-94CA-5064-AABF-A70ACFCAB99F">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<segment>D60238BB-CDAC-9BE0-57C0-1DEFED7AD55B</segment>
+<tableSpace>10CF7216-E858-51B5-30B2-3800ACFC8015</tableSpace>
+</IndexProxy>
+</indexProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="SOFORT_PMT_GWY_RESPONSES" directorySegmentName="seg_0" id="06CA9ABF-D0A8-46CF-7413-E56BF64E1D2B">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRTTXN</sourceObjSchema>
+<sourceObjName>SOFORT_PMT_GWY_RESPONSES</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:11 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<object>SOFORT_PMT_GWY_RESPONSES</object>
+<objectUser>934EA447-22B6-861E-9365-357E32EDC285</objectUser>
+<user>B9D67DB9-F0F3-F659-DB44-6150030D112F</user>
+<referredObjectID>352F0E6D-66EF-D9B0-D5C1-3E1A0F2E3BA0</referredObjectID>
+</Synonym>
+</synonyms>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000170520C00007$$" id="BCD14E47-5F98-9666-3BAC-2E86F49C1AFF">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Alternate Payments Sofort v0.02</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>RAW_RESPONSE</column>
+<logging>YES</logging>
+<tableSpace>10CF7216-E858-51B5-30B2-3800ACFC8015</tableSpace>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SOFPMTGWYRES_PK" id="28F6B61D-20A3-4924-6797-D67000B63B44">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="SOFPMTGWYRES_UK" id="0CC1FAAD-A99E-C97E-6D6A-F9A252BD4214">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

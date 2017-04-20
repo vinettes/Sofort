@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="RETREV_BIR_TRG" directorySegmentName="seg_0" id="37AFB720-832C-B002-5D37-1B6EA328883B">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>RETREV_BIR_TRG</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<actions>INSERT</actions>
+<body>declare&lt;br/&gt;  lErrCode    NUMBER;&lt;br/&gt;  lErrMsg     VARCHAR2(4000);&lt;br/&gt;  lRec        return_reversals_jn%rowtype;&lt;br/&gt;begin&lt;br/&gt;  --&lt;br/&gt;  --  Journal section.&lt;br/&gt;  lRec.internal_id   := :new.internal_id;&lt;br/&gt;  lRec.id            := :new.id;&lt;br/&gt;  lRec.status        := :new.status;&lt;br/&gt;  lRec.modified_by   := :new.last_modified_by;&lt;br/&gt;  lRec.from_date     := :new.created_date;&lt;br/&gt;  --&lt;br/&gt;  altpayint_journal_pkg.return_reversals_jn_prc (&lt;br/&gt;        p_process        =&gt; altpayint_journal_pkg.IS_INSERTING&lt;br/&gt;       ,p_rec            =&gt; lRec&lt;br/&gt;       ,p_err_code       =&gt; lErrCode&lt;br/&gt;       ,p_err_msg        =&gt; lErrMsg);&lt;br/&gt;  --&lt;br/&gt;  IF lErrCode &lt;&gt; 0 THEN&lt;br/&gt;    raise_application_error (-20001, &apos;RETREV_BIR_TRG trigger, &apos; || lErrMsg);&lt;br/&gt;  END IF;&lt;br/&gt;end;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>934EA447-22B6-861E-9365-357E32EDC285</owner>
+<table>6CC09542-82BE-5186-C2EA-9ED09703923E</table>
+</TriggerOraclev10g>

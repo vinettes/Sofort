@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AF9EADB-B031-008A-8654-F3EB0413D24A" name="MICRO_SERVICE_THREAD_MANAGER">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>MICRO_SERVICE_THREAD_MANAGER</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>PSP_947: To capture/manage one Java thread at one time for the current micro-service. Author: Stephane Vinette. Date: 2016-06-16. Volume Info: Initial: 1 or 2 records Growth Rate: 0 records </commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E8198C34-7BB1-9D37-9C1E-6C9AF7DF7F14">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>MICRO_SERVICE_THREAD_MANAGER</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="THREAD_START_TIME" id="D3CA77A2-D090-BBF6-FEF2-EE2E90276BB0">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>MICRO_SERVICE_THREAD_MANAGER</sourceObjSchema>
+<sourceObjName>THREAD_START_TIME</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The time the thread started.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2EF4DE39-9E4A-7CD1-C9C1-B00475F1B2E8" name="MICSERTHRMAN_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>MICSERTHRMAN_PK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8198C34-7BB1-9D37-9C1E-6C9AF7DF7F14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="437CE45B-C557-1328-5D2A-DCF2E6752C51" name="MICSERTHRMAN_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>MICSERTHRMAN_PK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8198C34-7BB1-9D37-9C1E-6C9AF7DF7F14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

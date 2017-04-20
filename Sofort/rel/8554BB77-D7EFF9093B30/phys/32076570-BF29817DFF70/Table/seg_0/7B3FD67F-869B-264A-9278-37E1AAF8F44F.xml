@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SOFORT_PMT_GWY_RESPONSES_JN" directorySegmentName="seg_0" id="7B3FD67F-869B-264A-9278-37E1AAF8F44F">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>03244FD7-78B9-007E-88BA-6077079F5612</segment>
+<tableSpace>10CF7216-E858-51B5-30B2-3800ACFC8015</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SOFPMTGWYREJ_UK" id="238C97E1-EAC9-08B7-BAA5-E790E016631E">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<segment>D60238BB-CDAC-9BE0-57C0-1DEFED7AD55B</segment>
+<tableSpace>10CF7216-E858-51B5-30B2-3800ACFC8015</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FROM_DATE" id="495EA0B2-F76E-50A8-788F-505DA408E4CE">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODIFIED_BY" id="4F9EFFB3-8AA9-E37B-EF9D-755005CBFF8A">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TO_DATE" id="6839F275-E86F-BF10-51CF-458E00F0B040">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="722CB7BD-EFF4-6FF4-4508-E3EBE86EF265">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OGG_KEY_ID" id="72D9B78F-9488-E8EB-F744-EE7D45524E7B">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="7DE98256-F3A9-8D23-D15E-3178C0C06F0D">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYMENT_TYPE" id="805FC2EB-8D11-EDA8-9F29-F680D73BC335">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOFORT_ID" id="B79AF5D4-18F6-062D-8247-CED43A05B0A8">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INTERNAL_ID" id="CC86555F-7D95-825A-A6F9-D38D004E83F6">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESULT_CODE" id="F0E92D42-9FB8-05DB-281A-A3D222402158">
+<createdBy>VinetteS</createdBy>
+<createdTime>2017-04-18 19:21:53 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="SOFPMTGWYREJ_UK" id="3738485D-D706-19D9-A373-3C2968E030B9">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<segment>D60238BB-CDAC-9BE0-57C0-1DEFED7AD55B</segment>
+<tableSpace>10CF7216-E858-51B5-30B2-3800ACFC8015</tableSpace>
+<existingIndex>238C97E1-EAC9-08B7-BAA5-E790E016631E</existingIndex>
+<indexSegment>D60238BB-CDAC-9BE0-57C0-1DEFED7AD55B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

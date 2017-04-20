@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="423D62D1-02EE-34A8-1224-4ED4222B91FE" name="VOIAUT_PAYMENTS_FK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>VOIAUT_PAYMENTS_FK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>8F1484F2-EB4E-B085-B1EE-5F025EA42C09</importedID>
+<containerWithKeyObject>D60B26A3-EDDA-588C-8214-6CB291879D69</containerWithKeyObject>
+<deleteRule>CASCADE</deleteRule>
+<localFKIndex>D81397F5-79B4-83BB-CA43-151EE9A2B7EA</localFKIndex>
+<keyObject>362DB903-1654-2531-0C61-8010F5A65408</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="REFUNDS_BDR_TRG" directorySegmentName="seg_0" id="622D75C8-9D22-7B3D-4950-E6F753D24D07">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>REFUNDS_BDR_TRG</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:33 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<actions>DELETE</actions>
+<body>declare&lt;br/&gt;  lErrCode    NUMBER;&lt;br/&gt;  lErrMsg     VARCHAR2(4000);&lt;br/&gt;  lRec        refunds_jn%rowtype;&lt;br/&gt;begin&lt;br/&gt;  --&lt;br/&gt;  --  Journal section.&lt;br/&gt;  lRec.internal_id := :old.internal_id;&lt;br/&gt;  lRec.from_date := systimestamp;&lt;br/&gt;  --&lt;br/&gt;  altpayint_journal_pkg.refunds_jn_prc (&lt;br/&gt;        p_process        =&gt; altpayint_journal_pkg.IS_DELETING&lt;br/&gt;       ,p_rec            =&gt; lRec&lt;br/&gt;       ,p_err_code       =&gt; lErrCode&lt;br/&gt;       ,p_err_msg        =&gt; lErrMsg);&lt;br/&gt;  --&lt;br/&gt;  IF lErrCode &lt;&gt; 0 THEN&lt;br/&gt;    raise_application_error (-20001, &apos;REFUNDS_BDR_TRG trigger, &apos; || lErrMsg);&lt;br/&gt;  END IF;&lt;br/&gt;end;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>934EA447-22B6-861E-9365-357E32EDC285</owner>
+<table>FFE845CC-693F-1295-2B6D-A17EE5C58C33</table>
+</TriggerOraclev10g>

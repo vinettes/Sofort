@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="SOFCRE_BIR_TRG" directorySegmentName="seg_0" id="16A6783A-1512-095B-B700-F44EBAF98EA7">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>SOFCRE_BIR_TRG</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:33 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<actions>INSERT</actions>
+<body>declare&lt;br/&gt;  lDate     timestamp(6) with time zone := systimestamp;&lt;br/&gt;begin&lt;br/&gt;  :new.created_by := nvl(:new.created_by, USER);&lt;br/&gt;  :new.created_date := lDate;&lt;br/&gt;  :new.last_modified_by := nvl(:new.last_modified_by, USER);&lt;br/&gt;  :new.last_modified_date := lDate;&lt;br/&gt;end;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>934EA447-22B6-861E-9365-357E32EDC285</owner>
+<table>054122C5-1500-8882-0854-BF5EBC26347E</table>
+</TriggerOraclev10g>

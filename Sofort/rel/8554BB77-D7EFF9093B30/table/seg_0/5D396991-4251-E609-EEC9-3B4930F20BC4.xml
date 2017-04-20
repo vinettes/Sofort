@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D396991-4251-E609-EEC9-3B4930F20BC4" name="VOID_AUTH_STATUSES">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>VOID_AUTH_STATUSES</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>PSP-4471: Void auth statuses. Author: Unknown. Date: 2017-03-27. Volume Info: Initial: 1 records, Growth Rate: 0 records/month.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>7549780F-5023-615A-44F9-2F627AEC7591</importedID>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="9A113E8F-14B5-E3F4-3265-2CE03F5E4860">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>VOID_AUTH_STATUSES</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Void auth status code</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>911DC8F3-F29B-5E2A-963E-0B1C8AE689EE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="5411C6F8-EA5D-C874-9D42-0DB2516CF076">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>VOID_AUTH_STATUSES</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Void auth status reason</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>A939501C-5D66-1D72-CD6D-CE1F619C7C1D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="0DFF37B3-C0AF-F318-2F92-FFBA77611F8C">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>VOID_AUTH_STATUSES</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>F6A663E9-C057-EE8F-DA9E-36113DD0AA95</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_DATE" id="7B30D440-A4DF-79F5-A328-D39920196026">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>VOID_AUTH_STATUSES</sourceObjSchema>
+<sourceObjName>CREATED_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>2F39A26F-B1ED-AE36-42F2-6CBC38B16BC5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_BY" id="C2F07055-917B-4DD5-FAD8-80089DBCA5A0">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>VOID_AUTH_STATUSES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>CFB78358-0C47-3BD5-A5E3-7796D1710B66</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_DATE" id="63F54C85-FE52-BF84-238F-F6CA4B7F7EE5">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>VOID_AUTH_STATUSES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>724E6FAC-AB8B-D292-6099-18E3886FC0D8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9ED3F317-2D69-177E-227B-288582AD7237" name="VOIAUTSTA_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>VOIAUTSTA_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>5E47BF65-DB06-3C7F-FF90-49BD2E89CCF9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A113E8F-14B5-E3F4-3265-2CE03F5E4860"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56F317EC-F122-0EE1-C315-C13B5298DBE6" name="VOIAUTSTA_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>VOIAUTSTA_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>993DD558-6B40-4AD0-75BD-0A31DA273158</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A113E8F-14B5-E3F4-3265-2CE03F5E4860"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

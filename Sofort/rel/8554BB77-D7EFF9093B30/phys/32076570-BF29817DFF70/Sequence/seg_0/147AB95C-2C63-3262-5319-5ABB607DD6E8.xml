@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="VOIAUT_SEQ" directorySegmentName="seg_0" id="147AB95C-2C63-3262-5319-5ABB607DD6E8">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>VOIAUT_SEQ</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<cache>20</cache>
+<cycle>YES</cycle>
+<incrementBy>100</incrementBy>
+<maxValue>99999999999999999</maxValue>
+<minValue>100</minValue>
+<order>YES</order>
+<user>934EA447-22B6-861E-9365-357E32EDC285</user>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="VOIAUT_SEQ" directorySegmentName="seg_0" id="8222D885-9D70-ACC0-5D3F-70750454C4BD">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRTTXN</sourceObjSchema>
+<sourceObjName>VOIAUT_SEQ</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:11 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<object>VOIAUT_SEQ</object>
+<objectUser>934EA447-22B6-861E-9365-357E32EDC285</objectUser>
+<user>B9D67DB9-F0F3-F659-DB44-6150030D112F</user>
+<referredObjectID>147AB95C-2C63-3262-5319-5ABB607DD6E8</referredObjectID>
+</Synonym>
+</synonyms>
+</SequenceOraclev10g>

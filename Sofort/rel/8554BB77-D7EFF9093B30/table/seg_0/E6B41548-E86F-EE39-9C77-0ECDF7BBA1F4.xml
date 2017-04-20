@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6B41548-E86F-EE39-9C77-0ECDF7BBA1F4" name="AUTHORITIES">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>AUTHORITIES</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>PSP-275: To capture the sofort authorities. Author: Stephane Vinette. Date: 2016-02-02. Volume Info: Initial: 2 records, Growth Rate: 0 records/month.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INTERNAL_ID" id="D3292E95-7227-0CA2-51A3-93943C85AA3A">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>AUTHORITIES</sourceObjSchema>
+<sourceObjName>INTERNAL_ID</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The authority&apos;s internal Id. PK to the AUTHORITIES table.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="8C6ED08F-203C-868B-118A-5EC9D2699332">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>AUTHORITIES</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The authority&apos;s UUID.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="74ECBC48-38E3-4386-D51D-877BC741D4CD">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>AUTHORITIES</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The authority name.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="6A94DCB2-3764-50E4-195D-E85A4917D89A">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>AUTHORITIES</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_DATE" id="03957DB9-7990-0E2D-7779-28CCA308C595">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>AUTHORITIES</sourceObjSchema>
+<sourceObjName>CREATED_DATE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_BY" id="6B4FB787-5532-489F-2181-F773E4A73F58">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>AUTHORITIES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_BY</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_DATE" id="DB244D86-734C-0FB1-74D8-424261548623">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>AUTHORITIES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_DATE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8DE598E-AF14-C0AC-72B6-D016C1E96B34" name="AUTHORITIES_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>AUTHORITIES_PK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3292E95-7227-0CA2-51A3-93943C85AA3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39511992-2A7B-1C44-10FC-DD88819E8D7F" name="AUTHORITIES_UK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>AUTHORITIES_UK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C6ED08F-203C-868B-118A-5EC9D2699332"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C664FBBB-1A94-4A2C-1C92-3A053CDF8B67" name="AUTHORITIES_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>AUTHORITIES_PK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3292E95-7227-0CA2-51A3-93943C85AA3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8165CA30-C3E3-E465-673C-E8813A56C258" name="AUTHORITIES_UK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>AUTHORITIES_UK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C6ED08F-203C-868B-118A-5EC9D2699332"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

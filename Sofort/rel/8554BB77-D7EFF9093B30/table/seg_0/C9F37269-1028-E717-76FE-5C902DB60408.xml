@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9F37269-1028-E717-76FE-5C902DB60408" name="COUNTRY_SUBDIVISIONS">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>COUNTRY_SUBDIVISIONS</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>PSP-275: To capture the Country Sub-Divisions information. Author: Stephane Vinette. Date: 2016-02-02. Volume Info: Initial: 39 records, Growth Rate: 3 records/month.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="B3FACFFA-6A01-EBED-5320-4114A0D1BC4D">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>COUNTRY_SUBDIVISIONS</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="9E37870C-68EE-5EAD-5949-EDA8BD76FF32">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>COUNTRY_SUBDIVISIONS</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<delegate>1445E315-2E5B-F8C0-592C-027E9117A86C</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D323665-CD9D-AE53-0FCC-423E5A3267A2" referredColumn="1445E315-2E5B-F8C0-592C-027E9117A86C"/>
+</associations>
+</Column>
+<Column name="NAME" id="1417375E-79B3-C662-AD82-332D9935F43E">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>COUNTRY_SUBDIVISIONS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="7C590B7D-CAA0-B982-530D-6EC2A6F2C782">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>COUNTRY_SUBDIVISIONS</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_DATE" id="81CD3D76-AE3D-365D-5D26-DC631FBDFC1A">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>COUNTRY_SUBDIVISIONS</sourceObjSchema>
+<sourceObjName>CREATED_DATE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_BY" id="BF51D233-C6E5-4337-67A1-77FB4329EA0F">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>COUNTRY_SUBDIVISIONS</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_BY</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_DATE" id="A9836309-1918-F6EC-63E9-6399188DDDD6">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>COUNTRY_SUBDIVISIONS</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_DATE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="875D6274-FDDF-2697-5B66-8514710E95AF" name="COUSUB_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>COUSUB_PK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3FACFFA-6A01-EBED-5320-4114A0D1BC4D"/>
+<colUsage columnID="9E37870C-68EE-5EAD-5949-EDA8BD76FF32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DB269AE-1B72-E380-9B8F-17263160A6F2" name="COUSUB_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>COUSUB_PK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3FACFFA-6A01-EBED-5320-4114A0D1BC4D"/>
+<colUsage columnID="9E37870C-68EE-5EAD-5949-EDA8BD76FF32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="087141BC-B72F-0C02-506B-DDC362092C5A" name="COUSUB_COUNTRIES_FK_I">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>COUSUB_COUNTRIES_FK_I</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E37870C-68EE-5EAD-5949-EDA8BD76FF32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAE0C323-884A-C836-F97D-35FBE3BE8665" name="COUSUB_COUNTRIES_FK">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:33 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E37870C-68EE-5EAD-5949-EDA8BD76FF32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

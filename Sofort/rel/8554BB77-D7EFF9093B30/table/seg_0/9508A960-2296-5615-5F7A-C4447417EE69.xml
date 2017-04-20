@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9508A960-2296-5615-5F7A-C4447417EE69" name="RETURN_STATUSES">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>RETURN_STATUSES</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>PSP-4063: To capture the return statuses. Author: Unknown. Date: 2016-12-01. Volume Info: Initial: 1 records, Growth Rate: 0 records/month.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>54C8057E-3610-AA22-757E-71B328D35C5F</importedID>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="AAE237DF-A995-7A18-D840-3693054F6022">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>RETURN_STATUSES</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Return code</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>40442FE7-C67D-A0EC-026E-BA6B061BC9D0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="543CA576-13C4-302B-2D9A-6B50697980E8">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>RETURN_STATUSES</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Return reason</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>8FE94074-31BB-A038-1A71-216A3CE19B3A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="CE47BCC3-DD6B-80F8-7C2F-85C5FBCDDB40">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>RETURN_STATUSES</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>C805A733-072D-BC61-9AD7-6A914BCC2B14</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_DATE" id="8E621FE3-3104-22D6-0A52-FF2E65F6A41A">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>RETURN_STATUSES</sourceObjSchema>
+<sourceObjName>CREATED_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>ED89EBE5-90D3-5573-701B-F75B805F3957</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_BY" id="BAFC03B2-B3B9-8891-A27A-2153D5AFC794">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>RETURN_STATUSES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>F6D5120C-A923-9898-6278-6863B0BAEAEB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_DATE" id="8B6297A8-8EA4-4C5C-9631-8B763DFDA13A">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>RETURN_STATUSES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>0F8A874B-BE9F-A8A7-7A40-7DB063FAA5F4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A98C66D3-B24B-0087-A92E-DEEABD451AC5" name="RETSTA_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>RETSTA_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>CFC237F7-4F54-64A2-84EB-B7E566FE36FA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAE237DF-A995-7A18-D840-3693054F6022"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C11995A8-A70F-2472-079B-63C2D5EEAD74" name="RETSTA_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>RETSTA_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>1D7F2E1E-82E8-72E3-7181-D9A6753AF0A2</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAE237DF-A995-7A18-D840-3693054F6022"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

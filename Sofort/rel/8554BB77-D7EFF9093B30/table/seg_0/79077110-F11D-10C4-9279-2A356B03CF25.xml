@@ -1,0 +1,328 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79077110-F11D-10C4-9279-2A356B03CF25" name="BANK_ACCOUNTS">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>BANK_ACCOUNTS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>PSP-5673: Bank Accounts. Author: Unknown. Date: 2017-03-27. Volume Info: Initial: 0 records, Growth Rate: 1000 records/month.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>29BA7823-1917-EC5C-9121-874FD6C5C358</importedID>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INTERNAL_ID" id="760AB408-00B8-80F7-4A90-A9D988E32758">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNTS</sourceObjSchema>
+<sourceObjName>INTERNAL_ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>4FDFD167-C305-153A-B28C-7E62AE524F98</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="EA3EE6C6-C19D-0C77-8434-692A6532764C">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNTS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>5F688C85-6E3F-D2A5-DABB-7B267EE6D4CB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNT_HOLDER_NAME" id="FD2FBA79-2128-662A-FCCE-E9BAF592D6D4">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNTS</sourceObjSchema>
+<sourceObjName>ACCOUNT_HOLDER_NAME</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Bank account holder name</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>01A2D8A9-15EC-C06C-05A4-EC19A11F7E5C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANK_NAME" id="131C04F9-D2B7-E7BB-BF8F-6F2D129787DE">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNTS</sourceObjSchema>
+<sourceObjName>BANK_NAME</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Bank name</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>CC47E046-1BC5-5F7E-3DB0-C899C7EE7BC2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="EA33D3F8-6983-70F5-1F7A-4E224CA9B25C">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNTS</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Bank country code. FK to the COUNTRIES.CODE column.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>7E106E4C-31EC-B018-041A-94B5538D588C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<delegate>1445E315-2E5B-F8C0-592C-027E9117A86C</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D15B5F6-C7C7-BEE2-C587-361C6E70C651" referredColumn="1445E315-2E5B-F8C0-592C-027E9117A86C"/>
+</associations>
+</Column>
+<Column name="IBAN_CIPHER" id="F0612D36-FAC7-3416-B67A-80921B856B8D">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNTS</sourceObjSchema>
+<sourceObjName>IBAN_CIPHER</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Bank IBAN cipher text from DPS</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>7A1EE97F-CD4B-97EB-6EE5-6F0D0ED1A3EB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIC_CIPHER" id="E8AAD391-B42E-7BFE-5F3A-986789F067B1">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNTS</sourceObjSchema>
+<sourceObjName>BIC_CIPHER</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Bank BIC cipher text from DPS</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>62E82690-B698-67D0-DE22-F871E53151C7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE" id="6FE3EE00-33E2-80CC-5174-8695CF55BD1E">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNTS</sourceObjSchema>
+<sourceObjName>TYPE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Bank account type</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>721CBB12-405B-C81E-DC65-AEA83346AF12</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>80768F0F-2C7B-5B85-6869-F600EBF19B8D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA958C5F-2E8E-D3BA-C24E-59C8C81D2962" referredColumn="80768F0F-2C7B-5B85-6869-F600EBF19B8D"/>
+</associations>
+</Column>
+<Column name="VERIFIED" id="3B229A76-E013-C5F5-07A2-3F0464542446">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNTS</sourceObjSchema>
+<sourceObjName>VERIFIED</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Indicates that the account information has been verified by the third party gateway service. (Accepted values: 0 = Not verified; 1 = Verified)</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>18DB58BE-A340-63A7-41EE-749AF05DFF86</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="804B04DC-4F10-898C-FB1D-93F4002D5294">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNTS</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>8242CE13-EAE1-6477-F7FB-2C3A11E8254A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_DATE" id="A2993BD3-EB42-A771-B204-DC47B98A4992">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNTS</sourceObjSchema>
+<sourceObjName>CREATED_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>E4451E5D-4BC6-FEEC-BC11-7F4E94C2E729</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_BY" id="4F366D64-4488-E302-4D7B-A9C12D8618B6">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNTS</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>7737218D-D7A1-2196-DCF3-2B193F71025E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_DATE" id="EA86EC38-D177-2134-52CF-6DFFE71E9820">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNTS</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>12FE1BFA-047C-8694-7DAD-E470E4ACE02D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B47F215-0DC6-0363-C38A-0539070A7749" name="BANACC_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>BANACC_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>3C9CF8CE-5EF9-CD88-CEE3-A67BDA300418</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="760AB408-00B8-80F7-4A90-A9D988E32758"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BAC5403-7859-7E8C-7149-4C5BDAFEC1B2" name="BANACC_UK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>BANACC_UK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>FB3C4B33-D936-39D8-75C4-C85B6C60B6FB</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA3EE6C6-C19D-0C77-8434-692A6532764C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="542D73F8-4CC7-81D6-FD88-6BC68053E170" name="BANACC_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>BANACC_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>7BC1F5F5-57AE-F0F9-B009-E18917AD2B52</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="760AB408-00B8-80F7-4A90-A9D988E32758"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27439650-C2D0-AE4D-AD93-474BD6E12D7A" name="BANACC_UK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>BANACC_UK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>53352254-46E8-D343-136B-42BAA887ADC8</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA3EE6C6-C19D-0C77-8434-692A6532764C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B79B26A0-3527-6889-56F7-33862393F113" name="BANACC_COUNTRIES_FK_I">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>BANACC_COUNTRIES_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>45934086-1D77-A7E4-09C1-2A8B7A634050</importedID>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA33D3F8-6983-70F5-1F7A-4E224CA9B25C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D76AD11-D2EB-E0F6-7CDC-9E745493882E" name="BANACC_BANACCTYP_FK_I">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>BANACC_BANACCTYP_FK_I</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>3A3F7A5C-5D22-90E8-FA10-1A0BF8A9009A</importedID>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FE3EE00-33E2-80CC-5174-8695CF55BD1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE8CA256-B68B-102F-A6C7-BFB1A946BDE7" name="BANACC_BANACCTYP_FK">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FE3EE00-33E2-80CC-5174-8695CF55BD1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A349DC1-CFBE-9B91-E242-027230A414CB" name="BANACC_COUNTRIES_FK">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA33D3F8-6983-70F5-1F7A-4E224CA9B25C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

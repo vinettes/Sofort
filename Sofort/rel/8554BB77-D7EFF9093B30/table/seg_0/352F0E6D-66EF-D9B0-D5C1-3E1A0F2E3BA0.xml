@@ -1,0 +1,327 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="352F0E6D-66EF-D9B0-D5C1-3E1A0F2E3BA0" name="SOFORT_PMT_GWY_RESPONSES">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>SOFORT_PMT_GWY_RESPONSES</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>PSP-275: To capture the sofort payments gateway responses. Author: Stephane Vinette. Date: 2016-02-02. Volume Info: Initial: 0 records, Growth Rate: ? records/month.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INTERNAL_ID" id="D7D80157-7956-DC23-6608-683A8FBE1136">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>INTERNAL_ID</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="1FE3BFC3-D97D-83CD-CCCD-9B303C8A11AF">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOFORT_ID" id="5E15E5C9-15BD-8683-4AC7-CE9C777CC382">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>SOFORT_ID</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>48</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESULT_CODE" id="EB677C31-A62D-F053-3523-A0F6920C6908">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>RESULT_CODE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="C4098476-A446-864C-64F1-C37A4F032C2F">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_TYPE" id="AB765964-1722-937A-274C-2EA9D79D9E17">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>PAYMENT_TYPE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAW_RESPONSE" id="1EE3285D-27CF-0BFB-0A4B-EEAF66A10E43">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>RAW_RESPONSE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10035</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="05822E41-6832-06FA-9D8A-B8529BF64BD7">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_DATE" id="09BC05BC-1830-D086-19A0-2C70AC73C4F1">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>CREATED_DATE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_BY" id="20014809-8351-B9B7-15AD-1F122CF0BAB9">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_BY</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_DATE" id="4C0B1927-62B1-266D-B5EB-55F72F2CDA24">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_DATE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_MODIFIED" id="34514D56-56A4-266D-B5E6-28338C479FC6">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>STATUS_MODIFIED</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Date and time of the latest status change.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>90FCBD50-9C78-A5A7-89D2-2D3A6B4223AC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="8017F129-D6D8-D6B6-F952-225B7C5E2B1B">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Status code of the transaction.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>243EA5F8-04AE-FAE1-DEC8-000B01D0DEB6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_REASON" id="EE5E113E-95DF-77DB-D1AB-CF402C629895">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>STATUS_REASON</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>BEF675B6-E23C-8833-B27D-B6A521E46635</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REDIRECT_URL" id="38AE5034-BB01-0269-3EE5-1DD8AEABBB56">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>REDIRECT_URL</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>C08C3E3F-3D4F-DECB-5D74-8541AD647BF4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REFUND_TIMESTAMP" id="BCAB2EF5-0B3D-8F71-8105-3D0CF7237C51">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>REFUND_TIMESTAMP</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>8458F60A-8F8F-0476-9492-1B03C5F7261C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REFUND_PARTIAL_ID" id="40D8021F-AA2A-1534-417A-F960A158D3D8">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>REFUND_PARTIAL_ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>ED26B562-93C5-97A2-357F-1FAFA17B2EAF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERROR_MESSAGE" id="4C9666B7-FDBB-30F7-5331-D8E0863FF19E">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFORT_PMT_GWY_RESPONSES</sourceObjSchema>
+<sourceObjName>ERROR_MESSAGE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>8A0CB4BA-1E89-8BD9-12FC-27BFD4CA9F3B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28F6B61D-20A3-4924-6797-D67000B63B44" name="SOFPMTGWYRES_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>SOFPMTGWYRES_PK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:33 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7D80157-7956-DC23-6608-683A8FBE1136"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CC1FAAD-A99E-C97E-6D6A-F9A252BD4214" name="SOFPMTGWYRES_UK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>SOFPMTGWYRES_UK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:33 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FE3BFC3-D97D-83CD-CCCD-9B303C8A11AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="066AF0F1-7129-0F87-B675-2604D2FEE736" name="SOFPMTGWYRES_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>SOFPMTGWYRES_PK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7D80157-7956-DC23-6608-683A8FBE1136"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25E45E52-94CA-5064-AABF-A70ACFCAB99F" name="SOFPMTGWYRES_UK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>SOFPMTGWYRES_UK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FE3BFC3-D97D-83CD-CCCD-9B303C8A11AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

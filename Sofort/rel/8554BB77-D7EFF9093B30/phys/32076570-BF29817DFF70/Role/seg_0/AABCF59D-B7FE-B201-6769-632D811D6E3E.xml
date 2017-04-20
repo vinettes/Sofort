@@ -1,0 +1,318 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="SOFRT_RO" directorySegmentName="seg_0" id="AABCF59D-B7FE-B201-6769-632D811D6E3E">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjName>SOFRT_RO</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:34 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions42" id="FB23E7AC-410B-A564-64D1-D57426448477">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:34 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>054122C5-1500-8882-0854-BF5EBC26347E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions20" id="E1FE14CD-782C-7CDC-B401-0AB29AD0F110">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>D081F60A-D983-3768-8BE5-712A5DE78A67</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions23" id="0A946661-3997-A3F1-C7DB-518B657A6AA0">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>E3E41A09-79B3-3D7F-4544-03B6F027490D</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions25" id="4C453717-F8D0-AAA9-0BA5-2E396CD2BEDB">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>74FFB5C1-BADA-AF27-83AF-DBB3B8B61E6E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions28" id="4D2FC688-5E8F-C808-5C9E-95111C1BA1D4">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>E6B41548-E86F-EE39-9C77-0ECDF7BBA1F4</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions30" id="B39016D5-E641-6FC9-A5CD-ADDE9E5F130B">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>79077110-F11D-10C4-9279-2A356B03CF25</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions32" id="70A540FE-C558-D81F-8ECD-6DD2A2EE03E3">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>8628338E-F485-EE3E-DADB-CC1FA53DEF2A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions34" id="77B20A58-85DF-AEDD-7119-2CF5C54004F3">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>B4FCDBD6-E545-EEC0-FB30-70DDE4F824BC</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions36" id="778297AF-B135-28BE-CA9D-B3996D150C4B">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>C9F37269-1028-E717-76FE-5C902DB60408</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions38" id="25D2AB5F-46A5-74F7-C7E2-DE8D5B352955">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>562BE49E-3B12-0BF7-2590-8E140D97198D</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions40" id="695EB08C-E74A-34E5-72B7-A0F0D94C4541">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>3C450C79-BEEF-D828-430E-695839A33A50</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions42" id="E2A3A185-A284-6C57-18BE-A37618F74539">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>44E50986-89E2-65A4-9BE4-63E24FFA3CB6</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions44" id="82DC7FBD-0B47-660F-6E15-3A68B3F06FD5">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>2AF9EADB-B031-008A-8654-F3EB0413D24A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions46" id="61211238-EEE1-36BA-50D4-FE4742B97E60">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>EE8AB3D2-023E-5BBD-1522-8C180D847DEB</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions49" id="BFA736F0-8AC2-F88A-34E3-AC5FB90D7352">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>9919A3B4-5E2F-A775-1948-E959F513585B</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions51" id="9F56A424-FECE-D86B-B7ED-D58AA66BDE56">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>7080C47B-9E8C-804B-EEAE-F6D55238A56A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions54" id="99768483-C393-8719-F861-8445F6A968A8">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>321EA2E5-112E-E33F-3F2C-1020356FB8CB</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions56" id="E3F919FB-078A-F56B-1F35-5E91351A3245">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>C4524F36-2DE6-8A5D-DC84-5A3276B6C6FD</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions58" id="742B63FB-DDCA-6E2E-C698-49C1C53B1DEE">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>1C6247BC-0A8A-7918-3AB4-E57EC5B17F52</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions60" id="740338C8-0663-4C1C-CA13-2CE5D13B56E7">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>A9FF6777-D221-F89F-1BE0-82BE82844190</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions62" id="7FECC754-2641-46B6-3218-A1CA110C86DB">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>FFE845CC-693F-1295-2B6D-A17EE5C58C33</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions65" id="CEFCC443-3B3A-54ED-7A72-090F28050764">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>04970233-426F-E770-2906-DE33F940A8CE</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions67" id="8723C415-E956-6D61-EE0B-39DDE04DA205">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>8E1A83AA-DCD5-D60B-3596-728F82E6137B</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions69" id="53D1BF78-1A2C-CE87-215E-251274C7AC86">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>6CCCE6C3-C1E3-F585-CB70-DC70F40E64B5</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions72" id="6C3E7BD8-59B0-F7AB-0803-67425D05A0D9">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>5892E4D6-E25F-50DB-810A-C2CCC8CF6EB6</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions75" id="2154D57D-A99F-19BB-C967-6954EDC18BC8">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>0E40F6F9-F102-AF3B-BD28-CBC8156C4273</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions78" id="D44CE48E-CDD2-FFE5-CBAC-BCCC77A9777E">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>A32CCDBB-0C88-B705-A723-30BDED5B0317</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions80" id="307EDE1B-0AB2-C5DB-782E-826D7A27BD00">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>6CC09542-82BE-5186-C2EA-9ED09703923E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions83" id="5E628E6C-9A08-035E-3CB2-63E36C02EB8D">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>3AA86E91-DC0A-296D-D77B-A7654A64B900</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions85" id="E9B829F6-E7AD-165C-18D7-4F42C50F419E">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>EF429A4B-5E13-8AC6-C3A9-6B2785584B20</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions87" id="873AACA6-3490-9E24-C724-B4D88E5185D4">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>9508A960-2296-5615-5F7A-C4447417EE69</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions89" id="1A30EE9D-760D-BF7B-1BFD-3798360A707F">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>6D230DEC-3BC5-A867-7166-328570C299F0</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions92" id="D87BFBBB-403A-1137-9341-132EB696B03F">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>A9F4D469-6AC7-C3BB-6427-C662A7B1D993</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions94" id="07CF0C4E-51AA-38C0-BD81-C3F9DC3AE29A">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>9C91399E-AE86-221C-1951-D68614501A40</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions97" id="F044AB9B-3D85-8551-6354-6BE7CAB99541">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>125EED9A-8EE3-D5E5-1572-FB249C505F6C</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions99" id="541EC5B4-0FBD-0A69-341F-389E12E170F0">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>352F0E6D-66EF-D9B0-D5C1-3E1A0F2E3BA0</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions102" id="E27CCDF1-B5F4-3D6F-AE0F-C5BBB11EF959">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>7B3FD67F-869B-264A-9278-37E1AAF8F44F</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions104" id="42C2478D-B2C8-E301-6225-40F72AC525AD">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>573E35C4-DC50-C846-C091-B155A31AFF44</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions106" id="300A5096-5644-2E20-B498-FA8CE6ECF959">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>46A6F0A8-7E2E-8031-A757-1B56C4893099</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions109" id="0A470DD7-1C16-9F46-A3E1-A4FF956183EF">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>7A3EFB36-B09C-B6B7-6F34-D23013E192AA</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions111" id="91F5E4CC-3714-66A6-2311-A6D216EC1E8B">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>141D9309-1F71-532E-8413-2E9229560B14</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions113" id="EC0C41A0-98AF-F1D5-129B-C48DCC3D158F">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>DDF58F25-EEF1-0E10-56DF-0011C7E5FE9F</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions115" id="58290517-92AE-8430-E023-63BD11FAC555">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>D60B26A3-EDDA-588C-8214-6CB291879D69</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions117" id="2030A495-B91E-80C4-DC66-F747EF328AC8">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:16 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>5D396991-4251-E609-EEC9-3B4930F20BC4</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

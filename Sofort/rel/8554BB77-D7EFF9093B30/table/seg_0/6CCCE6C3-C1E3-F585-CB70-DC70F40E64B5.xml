@@ -1,0 +1,426 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CCCE6C3-C1E3-F585-CB70-DC70F40E64B5" name="REST_TXNS">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>REST_TXNS</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>PSP-275: To capture the sofort REST transactions. Author: Stephane Vinette. Date: 2016-02-02. Volume Info: Initial: 0 records, Growth Rate: ? records/month.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INTERNAL_ID" id="9EE8182B-A793-F81F-1C9A-27A04440DC8A">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>INTERNAL_ID</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction internal Id. PK to the table.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="F3FF28E7-CBE7-77FF-6685-169ED882C07D">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction UUID.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORRELATION_ID" id="E017D746-07E9-6A52-29E6-1F078DD607EC">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>CORRELATION_ID</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction correlation Id.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESOURCE_ID" id="A2E02E3C-E72E-DD55-9BB3-78D20F0B6116">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>RESOURCE_ID</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction resource Id.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESOURCE_TYPE_CODE" id="C19B7EE6-4BD4-043F-36DC-BBC8536B5DB6">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>RESOURCE_TYPE_CODE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction resource type code.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REQUEST_DOCUMENT" id="2D7B2D57-E858-1901-F03F-B8E3D3CFEF90">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>REQUEST_DOCUMENT</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction request document.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10035</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESPONSE_DOCUMENT" id="16D50480-E7D9-17E5-EDC1-BF47838DB83F">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>RESPONSE_DOCUMENT</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction response document.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10035</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXECUTION_TIME" id="2F249753-9493-7023-58AF-EF3C92FF654F">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>EXECUTION_TIME</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction execution time.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IP_ADDRESS" id="15E07422-4668-F14B-2A6F-3CCB625B98BF">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>IP_ADDRESS</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction IP address.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="API_KEY_ID" id="0005D683-8D57-DF61-2F51-57D9FE6035E8">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>API_KEY_ID</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction API key Id.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="API_KEY_INTERNAL_ID" id="78A93506-2EA6-9BE2-E1C4-25474B087D2B">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>API_KEY_INTERNAL_ID</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction API key internal Id.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERROR_CODE" id="DB767055-20A2-E94E-D9EA-7FC93F182616">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>ERROR_CODE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction error code.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<delegate>AAF757B2-EAC6-04DD-D1AB-84571CE1BD84</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10E1A4B6-8E3E-C261-A9BE-EB1F90BA2B82" referredColumn="AAF757B2-EAC6-04DD-D1AB-84571CE1BD84"/>
+</associations>
+</Column>
+<Column name="HTTP_METHOD" id="1C128829-928B-777F-173D-D6C11F3DCBD1">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>HTTP_METHOD</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction HTTP method.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HTTP_STATUS_CODE" id="E10396F5-6892-EF67-993D-EBBFAA3E2850">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>HTTP_STATUS_CODE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction HTTP status code.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIVE_MODE" id="6988C5A1-66BC-906A-1010-C70DA2C5720E">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>LIVE_MODE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction live mode indicator.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REQUEST_DATE" id="5A2AD262-B607-FB70-78B5-5D38471B863F">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>REQUEST_DATE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction request date.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="5E445386-CE66-D8BE-52A3-D7C97CB851F1">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_DATE" id="3178FAB4-F955-F73C-DF4E-449729BEB69E">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>CREATED_DATE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_BY" id="7CDE1FC2-9991-CF5F-BD54-76D1F496E0A7">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_BY</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_DATE" id="475B2D7F-D1D8-CCA2-3025-A9A9EB082EE2">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_DATE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REQUEST_URL" id="5EEDD242-58CE-8D25-DFCF-2D7E83E88F60">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>REQUEST_URL</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction request URL</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10035</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIMULATOR_MODE" id="F116CC1B-3675-620B-71AF-E9B16FFF7956">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>SIMULATOR_MODE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction simulation mode</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMULATE_ERROR_CODE" id="40F33521-5475-ECDE-AE08-D1D18E4AC33E">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>REST_TXNS</sourceObjSchema>
+<sourceObjName>EMULATE_ERROR_CODE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>The REST transaction emulate error code</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B6EE5FC-56E4-A64B-5ADD-5E871B9D668D" name="REST_TXNS_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>REST_TXNS_PK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:33 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EE8182B-A793-F81F-1C9A-27A04440DC8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63C65E59-EDF1-C00F-0EB2-8B4E6DCE1BA1" name="REST_TXNS_UK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>REST_TXNS_UK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:33 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3FF28E7-CBE7-77FF-6685-169ED882C07D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E36D95E0-6D0A-DA7C-1AE2-303AE64029FD" name="REST_TXNS_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>REST_TXNS_PK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EE8182B-A793-F81F-1C9A-27A04440DC8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DD2E0B3-561B-CD12-2A29-A787979FC211" name="REST_TXNS_UK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>REST_TXNS_UK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3FF28E7-CBE7-77FF-6685-169ED882C07D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EC68E69-9EF6-FD59-856C-CEC2BA6B4387" name="REST_TXNS_RESTXNERR_FK_I">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>REST_TXNS_RESTXNERR_FK_I</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB767055-20A2-E94E-D9EA-7FC93F182616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5343D401-57C5-55A6-7D79-01544377C585" name="REST_TXNS_RESTXNERR_FK">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:33 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB767055-20A2-E94E-D9EA-7FC93F182616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44E50986-89E2-65A4-9BE4-63E24FFA3CB6" name="GATEWAY_CURRENCIES">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>GATEWAY_CURRENCIES</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<commentInRDBMS>GATEWAY_CURRENCIES-001: To capture the Gateway Currencies information. Author: Stephane Vinette. Date: 2016-02-02. Volume Info: Initial: 3 records, Growth Rate: 1 records/month.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="9655B4DF-8D80-C3EB-4D0C-7A7614701F30">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>GATEWAY_CURRENCIES</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<delegate>0BE51E63-8DCC-5DF2-B54B-1B0224DA922C</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7854942-A9D5-3098-BB0F-476D20E33661" referredColumn="0BE51E63-8DCC-5DF2-B54B-1B0224DA922C"/>
+</associations>
+</Column>
+<Column name="SHIFT_VALUE" id="9F9AC438-FE90-CCC0-06A5-E9C24B0B2986">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>GATEWAY_CURRENCIES</sourceObjSchema>
+<sourceObjName>SHIFT_VALUE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORMAT_DECIMALS" id="DEE0602D-51A9-E463-86EC-7820BAFE3EEB">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>GATEWAY_CURRENCIES</sourceObjSchema>
+<sourceObjName>FORMAT_DECIMALS</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENABLED" id="E410DEC6-991A-1A63-87CA-E0646E670387">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>GATEWAY_CURRENCIES</sourceObjSchema>
+<sourceObjName>ENABLED</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="C48FCDA1-99E6-A51B-E2EE-D00C0CE0824F">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>GATEWAY_CURRENCIES</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_DATE" id="77D621E1-ABD8-1A70-407C-FF1CFE0940BC">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>GATEWAY_CURRENCIES</sourceObjSchema>
+<sourceObjName>CREATED_DATE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_BY" id="C2C977A9-5606-97C6-F721-B1727A3DC266">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>GATEWAY_CURRENCIES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_BY</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_DATE" id="AD344EAE-5B4B-1952-3D7F-0127AAF19E58">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>GATEWAY_CURRENCIES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_DATE</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E66593CD-0DD6-7ECF-8BC4-7763300967DD" name="GATCUR_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>GATCUR_PK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9655B4DF-8D80-C3EB-4D0C-7A7614701F30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADAED152-60E6-6725-5892-BC1DF4E85F0B" name="GATCUR_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>GATCUR_PK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:32 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9655B4DF-8D80-C3EB-4D0C-7A7614701F30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF214B39-374C-899A-E2E5-3401AA08CAFE" name="GATCUR_CURRENCIES_FK">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:33 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9655B4DF-8D80-C3EB-4D0C-7A7614701F30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

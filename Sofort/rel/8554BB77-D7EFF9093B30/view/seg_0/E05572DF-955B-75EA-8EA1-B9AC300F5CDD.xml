@@ -1,0 +1,377 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="E05572DF-955B-75EA-8EA1-B9AC300F5CDD" name="PAYMENT_TXN_DETAILS_VW">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>PAYMENT_TXN_DETAILS_VW</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:33 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL>CREATE OR REPLACE VIEW PAYMENT_TXN_DETAILS_VW&lt;br/&gt;AS &lt;br/&gt;with &lt;br/&gt;payment_details as&lt;br/&gt;  (&lt;br/&gt;    select s1.internal_id payment_internal_id, s1.id payment_id, s1.account_internal_id payment_account_internal_id, s1.transaction_date payment_txn_date, s1.amount payment_amount, s1.currency_code payment_currency_code,&lt;br/&gt;           s1.type payment_type, s1.status payment_status, s1.bank_account_id payment_bank_account_id, s1.redirect_url payment_redirect_url, &lt;br/&gt;           s1.shopper_url payment_shopper_url, s2.descriptor payment_descriptor, s1.billing_address_internal_id pmt_bill_address_internal_id, s1.live_mode payment_live_mode&lt;br/&gt;    from   payments s1, sofort_payments s2&lt;br/&gt;    where  s2.internal_id = s1.internal_id&lt;br/&gt;  )&lt;br/&gt;select t2.payment_internal_id, t2.payment_id, t2.payment_account_internal_id, t2.payment_txn_date, t2.payment_amount, t2.payment_currency_code,&lt;br/&gt;       t2.payment_type, t2.payment_status, t2.payment_bank_account_id, t2.payment_redirect_url, &lt;br/&gt;       t2.payment_shopper_url, t2.payment_descriptor, t2.pmt_bill_address_internal_id, t2.payment_live_mode,&lt;br/&gt;       t3.internal_id refund_internal_id, t3.id refund_id, t3.transaction_date refund_txn_date, t3.amount refund_amount, t3.currency_code refund_currency_code, &lt;br/&gt;       t3.status refund_status, t3.account_internal_id refund_account_internal_id,&lt;br/&gt;       t5.last_name payment_prof_last_name, t5.first_name payment_prof_first_name, t5.email payment_prof_email, t5.ip payment_prof_ip,&lt;br/&gt;       t6.internal_id addr_internal_id, t6.id addr_id, t6.street1 addr_street1, t6.street2 addr_street2, t6.zip addr_zip,&lt;br/&gt;       t6.city addr_city, t6.state addr_state, t6.country addr_country&lt;br/&gt;from   payment_details t2, refunds t3, payment_profiles t5, addresses t6&lt;br/&gt;where  t2.payment_internal_id          = t3.payment_internal_id (+)&lt;br/&gt;and    t2.payment_internal_id          = t5.internal_id (+)&lt;br/&gt;and    t2.pmt_bill_address_internal_id = t6.internal_id (+)</userDefinedSQL>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_INTERNAL_ID" id="E02FD793-4448-741E-19F0-8B09F299C7FB">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_INTERNAL_ID</alias>
+<dataType>NUMBER (20)</dataType>
+<headerAlias>PAYMENT_INTERNAL_ID</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_ID" id="D41803BA-9E37-3D56-6CB5-8AA4FCDB63B4">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_ID</alias>
+<dataType>RAW (16)</dataType>
+<headerAlias>PAYMENT_ID</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_ACCOUNT_INTERNAL_ID" id="1C86F51C-B9BC-E050-59B5-46C3002CA5B1">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_ACCOUNT_INTERNAL_ID</alias>
+<dataType>NUMBER (20)</dataType>
+<headerAlias>PAYMENT_ACCOUNT_INTERNAL_ID</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_TXN_DATE" id="9B7FB9AE-0717-205F-2593-95BE880FE61A">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_TXN_DATE</alias>
+<dataType>TIMESTAMP(6) WITH TIME ZONE</dataType>
+<headerAlias>PAYMENT_TXN_DATE</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_AMOUNT" id="12C034B6-C316-9664-4C35-5C82652D9615">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_AMOUNT</alias>
+<dataType>NUMBER (17)</dataType>
+<headerAlias>PAYMENT_AMOUNT</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_CURRENCY_CODE" id="3415A6A4-2210-799A-CBB8-141FC7D2E024">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_CURRENCY_CODE</alias>
+<dataType>CHAR (3)</dataType>
+<headerAlias>PAYMENT_CURRENCY_CODE</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_TYPE" id="DE2EFCF9-B554-4B3D-52A8-3C6D0FB38E18">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_TYPE</alias>
+<dataType>VARCHAR2 (30)</dataType>
+<headerAlias>PAYMENT_TYPE</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_STATUS" id="7B4670B2-BB60-77DB-14BD-648A56E12D90">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_STATUS</alias>
+<dataType>VARCHAR2 (30)</dataType>
+<headerAlias>PAYMENT_STATUS</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_BANK_ACCOUNT_ID" id="620CA52F-2CF9-8EF8-1DB1-90C8DDCE5547">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_BANK_ACCOUNT_ID</alias>
+<dataType>NVARCHAR2 (100)</dataType>
+<headerAlias>PAYMENT_BANK_ACCOUNT_ID</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_REDIRECT_URL" id="E05A4201-CC78-7EED-D72C-6DFA9B9FFFA6">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_REDIRECT_URL</alias>
+<dataType>NVARCHAR2 (4000)</dataType>
+<headerAlias>PAYMENT_REDIRECT_URL</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_SHOPPER_URL" id="1242EF5F-C534-25ED-F82E-CEA0EDBAB7F7">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_SHOPPER_URL</alias>
+<dataType>NVARCHAR2 (4000)</dataType>
+<headerAlias>PAYMENT_SHOPPER_URL</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_DESCRIPTOR" id="E8A32F97-0540-FBC3-CD8B-E9E476D4335A">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_DESCRIPTOR</alias>
+<dataType>NVARCHAR2 (254)</dataType>
+<headerAlias>PAYMENT_DESCRIPTOR</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PMT_BILL_ADDRESS_INTERNAL_ID" id="4577021C-96E1-5E2D-D0C4-1B3D2F63B0AA">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PMT_BILL_ADDRESS_INTERNAL_ID</alias>
+<dataType>NUMBER (20)</dataType>
+<headerAlias>PMT_BILL_ADDRESS_INTERNAL_ID</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_LIVE_MODE" id="BC548530-98F9-0BE4-96A6-95E47F8C84FA">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_LIVE_MODE</alias>
+<dataType>NUMBER (1)</dataType>
+<headerAlias>PAYMENT_LIVE_MODE</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="REFUND_INTERNAL_ID" id="C9B302B2-6DE1-CCF6-E801-37F9EC77CE5E">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>REFUND_INTERNAL_ID</alias>
+<dataType>NUMBER (20)</dataType>
+<headerAlias>REFUND_INTERNAL_ID</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="REFUND_ID" id="1FC91103-ECDD-B7B3-C2AF-17DB34A633D5">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>REFUND_ID</alias>
+<dataType>RAW (16)</dataType>
+<headerAlias>REFUND_ID</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="REFUND_TXN_DATE" id="6915E9F6-ADB1-24A4-99D0-772B3AD43462">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>REFUND_TXN_DATE</alias>
+<dataType>TIMESTAMP(6) WITH TIME ZONE</dataType>
+<headerAlias>REFUND_TXN_DATE</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="REFUND_AMOUNT" id="686B92C8-55CB-E95A-2068-113849ADB37F">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>REFUND_AMOUNT</alias>
+<dataType>NUMBER (17)</dataType>
+<headerAlias>REFUND_AMOUNT</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="REFUND_CURRENCY_CODE" id="41D7FA6B-6157-EEE8-8970-B10EBFE3B18C">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>REFUND_CURRENCY_CODE</alias>
+<dataType>CHAR (3)</dataType>
+<headerAlias>REFUND_CURRENCY_CODE</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="REFUND_STATUS" id="F61829B7-B63E-A8C2-7BA2-48D8C9FE2207">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>REFUND_STATUS</alias>
+<dataType>VARCHAR2 (30)</dataType>
+<headerAlias>REFUND_STATUS</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="REFUND_ACCOUNT_INTERNAL_ID" id="F88E2278-E9C8-9D96-DBA1-CB5B024CEDB5">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>REFUND_ACCOUNT_INTERNAL_ID</alias>
+<dataType>NUMBER (20)</dataType>
+<headerAlias>REFUND_ACCOUNT_INTERNAL_ID</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_PROF_LAST_NAME" id="86061B15-4BDC-34A1-6C8D-DE1607D2E6A4">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_PROF_LAST_NAME</alias>
+<dataType>NVARCHAR2 (100)</dataType>
+<headerAlias>PAYMENT_PROF_LAST_NAME</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_PROF_FIRST_NAME" id="FB85B795-F679-47F9-742F-508BE280C15E">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_PROF_FIRST_NAME</alias>
+<dataType>NVARCHAR2 (100)</dataType>
+<headerAlias>PAYMENT_PROF_FIRST_NAME</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_PROF_EMAIL" id="271DF35F-054D-4F16-F0BB-4BA9876ABFB8">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_PROF_EMAIL</alias>
+<dataType>NVARCHAR2 (510)</dataType>
+<headerAlias>PAYMENT_PROF_EMAIL</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PAYMENT_PROF_IP" id="1815E126-7CD0-B3E5-A642-47B3609DA54F">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>PAYMENT_PROF_IP</alias>
+<dataType>NVARCHAR2 (510)</dataType>
+<headerAlias>PAYMENT_PROF_IP</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ADDR_INTERNAL_ID" id="AF10C832-F107-E045-8C59-2484C57A52F8">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>ADDR_INTERNAL_ID</alias>
+<dataType>NUMBER (20)</dataType>
+<headerAlias>ADDR_INTERNAL_ID</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ADDR_ID" id="DFF72B55-4F41-F27F-FE73-7EB95C9405B3">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>ADDR_ID</alias>
+<dataType>RAW (16)</dataType>
+<headerAlias>ADDR_ID</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ADDR_STREET1" id="C5462DEA-E695-0F90-5C16-326FAD8B148B">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>ADDR_STREET1</alias>
+<dataType>NVARCHAR2 (400)</dataType>
+<headerAlias>ADDR_STREET1</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ADDR_STREET2" id="D308FCBB-4F98-46EF-234E-5D0F7F39A9F6">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>ADDR_STREET2</alias>
+<dataType>NVARCHAR2 (400)</dataType>
+<headerAlias>ADDR_STREET2</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ADDR_ZIP" id="CE67659C-E163-C528-89A4-BBDEC5A39B97">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>ADDR_ZIP</alias>
+<dataType>NVARCHAR2 (20)</dataType>
+<headerAlias>ADDR_ZIP</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ADDR_CITY" id="C2F612D7-E44B-AB29-E42F-74227BAFD1FD">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>ADDR_CITY</alias>
+<dataType>NVARCHAR2 (400)</dataType>
+<headerAlias>ADDR_CITY</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ADDR_STATE" id="677D3D87-1842-2BB4-CC11-C4C88DFADF13">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>ADDR_STATE</alias>
+<dataType>VARCHAR2 (10)</dataType>
+<headerAlias>ADDR_STATE</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ADDR_COUNTRY" id="2103A360-5DA7-E05E-D662-0DC4180AB471">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>ADDR_COUNTRY</alias>
+<dataType>CHAR (2)</dataType>
+<headerAlias>ADDR_COUNTRY</headerAlias>
+<reference>false</reference>
+<viewID>E05572DF-955B-75EA-8EA1-B9AC300F5CDD</viewID>
+</viewElement>
+</viewElements>
+</TableView>

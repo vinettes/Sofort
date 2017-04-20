@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="COUSUB_BDR_TRG" directorySegmentName="seg_0" id="C875BFF0-F092-6472-2B07-B43BCF882DB1">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>COUSUB_BDR_TRG</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:33 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<actions>DELETE</actions>
+<body>declare&lt;br/&gt;  lCount   integer;&lt;br/&gt;begin&lt;br/&gt;  select count(1) into lCount from addresses&lt;br/&gt;  where  state = :old.code;&lt;br/&gt;  --&lt;br/&gt;  if lCount &gt; 0 then&lt;br/&gt;    raise_application_error(-20223, &apos;Cannot delete. Current State is already in use within the ADDRESSES table.&apos; ); &lt;br/&gt;  end if;&lt;br/&gt;end;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>934EA447-22B6-861E-9365-357E32EDC285</owner>
+<table>C9F37269-1028-E717-76FE-5C902DB60408</table>
+</TriggerOraclev10g>

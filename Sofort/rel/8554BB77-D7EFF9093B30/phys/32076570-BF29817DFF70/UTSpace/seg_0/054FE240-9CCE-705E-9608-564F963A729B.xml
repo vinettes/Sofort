@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UndoTablespaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UndoTablespaceOraclev10g" name="UNDOTBS1" directorySegmentName="seg_0" id="054FE240-9CCE-705E-9608-564F963A729B">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjName>UNDOTBS1</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:31 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<fileType>SMALLFILE</fileType>
+</UndoTablespaceOraclev10g>

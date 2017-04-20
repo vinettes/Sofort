@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TemporaryTablespaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TemporaryTablespaceOraclev10g" name="TEMP" directorySegmentName="seg_0" id="88885224-D76A-72D7-C20A-36E01ACC6334">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjName>TEMP</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:31 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<uniformSize>1024</uniformSize>
+<fileType>SMALLFILE</fileType>
+</TemporaryTablespaceOraclev10g>

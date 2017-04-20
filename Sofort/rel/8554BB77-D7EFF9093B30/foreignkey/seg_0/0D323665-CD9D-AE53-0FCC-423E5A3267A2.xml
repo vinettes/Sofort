@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D323665-CD9D-AE53-0FCC-423E5A3267A2" name="COUSUB_COUNTRIES_FK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>COUSUB_COUNTRIES_FK</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:33 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<containerWithKeyObject>C9F37269-1028-E717-76FE-5C902DB60408</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>BAE0C323-884A-C836-F97D-35FBE3BE8665</localFKIndex>
+<keyObject>E84CCAE2-C606-B49F-86A0-C82EE12E833D</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

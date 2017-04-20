@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="ALTPR" directorySegmentName="seg_0" id="41C1D9D2-1681-C1D8-F104-47C48C9AF6AB">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjName>ALTPR</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:11 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions21" id="31C1F7F9-8649-5609-8EEF-4647731BCDEC">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privilegesWithGrantOption>DELETE, INSERT, SELECT</privilegesWithGrantOption>
+<table>D081F60A-D983-3768-8BE5-712A5DE78A67</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions26" id="9F375368-E38C-1F5E-F525-EEA4B8CCEABD">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privilegesWithGrantOption>DELETE, INSERT, SELECT</privilegesWithGrantOption>
+<table>74FFB5C1-BADA-AF27-83AF-DBB3B8B61E6E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions47" id="69FEE9EA-42E2-D705-F61B-65A5B038570C">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privilegesWithGrantOption>DELETE, INSERT, SELECT</privilegesWithGrantOption>
+<table>EE8AB3D2-023E-5BBD-1522-8C180D847DEB</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions52" id="39B9012F-E13B-3A78-DBC7-A7BF57211B7D">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privilegesWithGrantOption>DELETE, INSERT, SELECT</privilegesWithGrantOption>
+<table>7080C47B-9E8C-804B-EEAE-F6D55238A56A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions63" id="466ABA9F-0B67-B693-5A30-09843C1F2C32">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privilegesWithGrantOption>DELETE, INSERT, SELECT</privilegesWithGrantOption>
+<table>FFE845CC-693F-1295-2B6D-A17EE5C58C33</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions70" id="52D9A609-B9FE-C009-1737-C5EA10A83FB8">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privilegesWithGrantOption>DELETE, INSERT, SELECT</privilegesWithGrantOption>
+<table>6CCCE6C3-C1E3-F585-CB70-DC70F40E64B5</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions73" id="76F11C28-1D6F-DA86-E8EE-D24CEADE1B11">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privilegesWithGrantOption>DELETE, INSERT, SELECT</privilegesWithGrantOption>
+<table>5892E4D6-E25F-50DB-810A-C2CCC8CF6EB6</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions76" id="FA13E5DD-2C71-AA77-3CC2-05099B9561F9">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privilegesWithGrantOption>DELETE, INSERT, SELECT</privilegesWithGrantOption>
+<table>0E40F6F9-F102-AF3B-BD28-CBC8156C4273</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions81" id="0B04E2ED-7A5B-04A6-8B94-B317EFFC523F">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privilegesWithGrantOption>DELETE, INSERT, SELECT</privilegesWithGrantOption>
+<table>6CC09542-82BE-5186-C2EA-9ED09703923E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions90" id="4D1F4338-D771-532F-B611-3191AA4D9DC4">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privilegesWithGrantOption>DELETE, INSERT, SELECT</privilegesWithGrantOption>
+<table>6D230DEC-3BC5-A867-7166-328570C299F0</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions95" id="79704A9F-8DFB-EF17-186F-1896A1C5F2CE">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privilegesWithGrantOption>DELETE, INSERT, SELECT</privilegesWithGrantOption>
+<table>9C91399E-AE86-221C-1951-D68614501A40</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions100" id="4C4291C3-0873-B532-8605-5579EFB58F6A">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privilegesWithGrantOption>DELETE, INSERT, SELECT</privilegesWithGrantOption>
+<table>352F0E6D-66EF-D9B0-D5C1-3E1A0F2E3BA0</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions107" id="3E87A9A3-AA28-2DA6-3526-782B6D4590AA">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<privilegesWithGrantOption>DELETE, INSERT, SELECT</privilegesWithGrantOption>
+<table>46A6F0A8-7E2E-8031-A757-1B56C4893099</table>
+</Permission>
+</permissions>
+</UserOraclev10g>

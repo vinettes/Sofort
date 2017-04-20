@@ -1,0 +1,293 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="321EA2E5-112E-E33F-3F2C-1020356FB8CB" name="PAYMENT_SHIPPING_DETAILS">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>PAYMENT_SHIPPING_DETAILS</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>PSP-5325: Add shipping details object to payments. Author: Viktor Penelski. Date: 2017-03-24. Volume Info: Initial: 0 records, Growth Rate: ? records/month.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>B58FCDC6-A3EE-5195-B263-ACAC2CEC8045</importedID>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INTERNAL_ID" id="596F06EE-4BEF-FFBB-749F-2F90EC38A650">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>INTERNAL_ID</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Internal ID for shipping details.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>2C0C4A21-C4FC-2276-755B-BF646DADEE83</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARRIER" id="26AC9CE0-22F9-470C-D99B-DD78607748DB">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>CARRIER</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>The shipment carrier.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>4C6173D5-41C9-379F-C605-10090E78DDBE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHIP_METHOD" id="9F37725B-FE39-BDF6-DFE5-C987D6CC2B6D">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>SHIP_METHOD</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>The method of shipment.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>973E90EA-2A92-2D5A-0463-82A1BA143894</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECIPIENT_NAME" id="C660EC13-037C-9FF3-A3C7-F22DF1987F81">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>RECIPIENT_NAME</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>The name of the person receiving the goods.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>63BCCF67-C89E-3923-8E06-F5FC0CED708D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPANY" id="0FEF034B-8ABC-FDC7-6444-62104EE90FFE">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>COMPANY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>This is the name of the company receiving the goods.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>43CA0AC4-0F0D-3037-4063-D6B98191FC2A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET" id="7C1D6EC6-8856-D3B7-EE6F-B5359322B6CE">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>STREET</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>The recipient&apos;s street address.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>D46F0477-F658-575B-0E98-EFE5263E2D63</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET2" id="6F355E7C-2530-AAE8-8ABA-42C30EA0E824">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>STREET2</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Additional field for street address.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>058CDC13-1BC8-218A-64B3-BFA1967638CA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="243064E3-D16F-7EE3-2785-33DBEE27F3D0">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>The city in which the recipient resides.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>016F0BB4-352F-5F2A-2EBE-C84643E440FA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="135A3A4A-D352-5389-98BF-0FD5FDE8E65B">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>STATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>The state in which the recipient resides.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>5C390EFD-9A53-384F-44F9-E6A7F7C1FB30</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="EF2AD25F-8258-188C-7660-19B6D90D084C">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>The country in which the recipient resides. FK to the COUNTRIES.CODE column.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>7675506D-ABF2-2464-369A-8B7FF88BAF80</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<delegate>1445E315-2E5B-F8C0-592C-027E9117A86C</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFB125EA-542B-CD8D-626C-234B6F9E9714" referredColumn="1445E315-2E5B-F8C0-592C-027E9117A86C"/>
+</associations>
+</Column>
+<Column name="ZIP" id="06823873-7B34-ACAD-4F40-51A53629E9B7">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>ZIP</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>This is the the recipient&apos;s postal/zip code.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>E2A12191-00A2-68B8-936D-DFF765B3646A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="A22921AE-9729-FD33-C587-0BD7732DBE92">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>2985C6FF-9CFC-B201-664B-5F8724EE42A8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_DATE" id="6CB3A107-844A-2F6E-A509-2B63FA66D765">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>CREATED_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>24457E9E-684D-9922-C898-119A60B2620C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_BY" id="EA51F12D-B28F-7731-1A5F-2B5500C2A49F">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>317EE82A-D69E-F1AB-0EF3-D37664C75D04</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_DATE" id="4A5ED0B8-CA31-5B11-7A64-A711C4466766">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_SHIPPING_DETAILS</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>D49454CB-0BC6-563F-EC8E-A97D50A704D1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09F731B9-12A5-26F8-C81E-F3EEEE3AC6AC" name="PAYSHIDET_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>PAYSHIDET_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>D4BB72C3-16F4-74F5-4D35-847AFC1059F0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="596F06EE-4BEF-FFBB-749F-2F90EC38A650"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D54F5192-3639-13AC-2D24-8591B930D98C" name="PAYSHIDET_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>PAYSHIDET_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>5E041599-948D-4296-1F43-68983F8E9B52</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="596F06EE-4BEF-FFBB-749F-2F90EC38A650"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86055F91-C86D-9B07-E484-D5ACA96E5FF8" name="PAYSHIDET_COUNTRIES_FK">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF2AD25F-8258-188C-7660-19B6D90D084C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8628338E-F485-EE3E-DADB-CC1FA53DEF2A" name="BANK_ACCOUNT_TYPES">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>BANK_ACCOUNT_TYPES</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>PSP-5673: Bank account types. Author: Unknown. Date: 2017-03-31. Volume Info: Initial: 1 records, Growth Rate: 0 records/month.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>667D934D-CF09-5A49-6E08-4FD5BCEE7236</importedID>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TYPE" id="80768F0F-2C7B-5B85-6869-F600EBF19B8D">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNT_TYPES</sourceObjSchema>
+<sourceObjName>TYPE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Bank Account Type</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>05041938-C91A-9C1D-62AB-6828DD57E3AA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="AF826D41-1390-466B-4515-39B2BDB053CA">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNT_TYPES</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>Bank Account Description</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>8F465D41-914B-E83C-FD41-6017BB4AF0C2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="C9DFBCEA-5D0A-8191-F9C0-D7A81849715C">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNT_TYPES</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>91DFE1D8-740E-7CFE-58FC-08BE68C7F03A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_DATE" id="B1D2B9D3-BBD2-8BF2-2F2D-230F393E81F5">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNT_TYPES</sourceObjSchema>
+<sourceObjName>CREATED_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>2CFF25DE-616D-DC78-DB51-B1208B1CFF34</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_BY" id="49BB38DE-D0D8-1A29-A5A2-0893F8712762">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNT_TYPES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>F319C9B9-1FF9-1719-C870-9A3B01EF49B1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_DATE" id="E52815E8-6068-E4DC-EF10-F1DC76815BE9">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNT_TYPES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>315D669E-CB53-F0BD-1345-B141D95A4A33</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A022CE8E-F804-91DA-7072-6DDEC60CC72B" name="BANACCTYP_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>BANACCTYP_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>144F41EE-A842-7D8A-35E6-AF543623F67D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80768F0F-2C7B-5B85-6869-F600EBF19B8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F183ACF-35CD-BD36-8F02-C0AC7C4820BA" name="BANACCTYP_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>BANACCTYP_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>D4A02135-A84F-EA8C-11E2-FCD58854D3DD</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80768F0F-2C7B-5B85-6869-F600EBF19B8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

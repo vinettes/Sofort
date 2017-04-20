@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="CONVERT_UUID_TO_STRING_FNC" directorySegmentName="seg_0" id="C371D785-47C6-70D8-842C-7A30B5307026">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>CONVERT_UUID_TO_STRING_FNC</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:34 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<owner>934EA447-22B6-861E-9365-357E32EDC285</owner>
+<source>CREATE OR REPLACE FUNCTION SOFRT.CONVERT_UUID_TO_STRING_FNC ( pUUID raw ) RETURN varchar2 IS&lt;br/&gt;  lUUID   varchar2(32) := lower(rawtohex(pUUID));&lt;br/&gt;BEGIN&lt;br/&gt;  RETURN SUBSTR(lUUID, 1, 8) || &apos;-&apos; ||&lt;br/&gt;         SUBSTR(lUUID, 9, 4) || &apos;-&apos; ||&lt;br/&gt;         SUBSTR(lUUID, 13, 4) || &apos;-&apos; ||&lt;br/&gt;         SUBSTR(lUUID, 17, 4) || &apos;-&apos; ||&lt;br/&gt;         SUBSTR(lUUID, 21);&lt;br/&gt;END;</source>
+</FunctionOracle>

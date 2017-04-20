@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SOFRT" directorySegmentName="seg_0" id="934EA447-22B6-861E-9365-357E32EDC285">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjName>SOFRT</sourceObjName>
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:29:31 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<defTableSpace>10CF7216-E858-51B5-30B2-3800ACFC8015</defTableSpace>
+<privileges>CREATE PROCEDURE, UNLIMITED TABLESPACE, CREATE TABLE, CREATE SYNONYM, CREATE PUBLIC SYNONYM, CREATE SEQUENCE, CREATE TRIGGER, CREATE MATERIALIZED VIEW, CREATE LIBRARY, ALTER SESSION, CREATE VIEW, QUERY REWRITE, CREATE SESSION, DROP PUBLIC SYNONYM, CREATE ANY SYNONYM, CREATE TYPE</privileges>
+<roles>958E70FB-B119-B81A-8140-D46B7C40CC6C</roles>
+<temptableSpace>88885224-D76A-72D7-C20A-36E01ACC6334</temptableSpace>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="BF20C2A3-00DE-539D-80F6-F276DD93C2F8">
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<tableSpace>10CF7216-E858-51B5-30B2-3800ACFC8015</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

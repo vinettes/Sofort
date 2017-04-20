@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3DAFB774-E826-1223-F378-676D5709DA94" name="RETURNS_CURRENCIES_FK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>RETURNS_CURRENCIES_FK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>2D9BD360-11B5-13AC-A6F4-40B577807812</importedID>
+<containerWithKeyObject>0E40F6F9-F102-AF3B-BD28-CBC8156C4273</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>553FDC1D-3471-AF98-8E08-103C0520A0B4</localFKIndex>
+<keyObject>6C792572-C2A1-FB0D-F5A3-F341B419CE0A</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

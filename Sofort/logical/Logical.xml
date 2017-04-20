@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4E53775D-C945-E4BD-E053-75065721297C" mainViewID="8885E5A3-C3BF-A329-3F14-332CB5B0C549">
+<createdBy>VinetteS</createdBy>
+<createdTime>2016-07-15 17:02:53 UTC</createdTime>
+<ownerDesignName>Alternate Payments Sofort v0.02</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

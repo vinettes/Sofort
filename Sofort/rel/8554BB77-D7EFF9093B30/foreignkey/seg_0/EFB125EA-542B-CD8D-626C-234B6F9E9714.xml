@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EFB125EA-542B-CD8D-626C-234B6F9E9714" name="PAYSHIDET_COUNTRIES_FK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>PAYSHIDET_COUNTRIES_FK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>583514F7-FFD6-F5AD-9A87-BFA4B34FE5C5</importedID>
+<containerWithKeyObject>321EA2E5-112E-E33F-3F2C-1020356FB8CB</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>86055F91-C86D-9B07-E484-D5ACA96E5FF8</localFKIndex>
+<keyObject>E84CCAE2-C606-B49F-86A0-C82EE12E833D</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

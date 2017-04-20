@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C6247BC-0A8A-7918-3AB4-E57EC5B17F52" name="PAYMENT_TXN_TYPES">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>PAYMENT_TXN_TYPES</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>PSP-4076: Payment intent. Author: Temenuzhka Zlateva. Date: 2016-11-22. Volume Info: Initial: 2 records, Growth Rate: 0 records/month.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>3FD18600-E890-7778-8B0C-F5227F41F041</importedID>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="5FDAF446-0220-3DBF-105F-EDA42AE4F43B">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_TXN_TYPES</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>The payment intent code.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>0E091125-3AB2-6418-7D6F-2B74868FA705</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="58A1FB4E-3E6C-3C67-27AD-E35C18F51076">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_TXN_TYPES</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<commentInRDBMS>A description for the intent of the payment.</commentInRDBMS>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>95666269-DB55-B972-2FE3-564DDF678527</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="567BC66D-7152-9DA1-5D7A-61DD1A0415D2">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_TXN_TYPES</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>83BEC83C-D673-96FC-D2E0-2C6BC67AA91E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_DATE" id="906424A1-2D7B-1561-6AC5-FDCA3A7F4E7A">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_TXN_TYPES</sourceObjSchema>
+<sourceObjName>CREATED_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>B75D8EA5-8E4C-E6FE-49AD-6DB4A4933839</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_BY" id="BC30844B-3A95-CDE7-8093-11DA37E054CF">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_TXN_TYPES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_BY</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>92B2570E-68B1-923E-C702-EAF35840FDD9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_MODIFIED_DATE" id="CFCCA6D2-4D9F-F139-1B31-28A0C91F9F2C">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>PAYMENT_TXN_TYPES</sourceObjSchema>
+<sourceObjName>LAST_MODIFIED_DATE</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>EF032048-F15D-FCCB-393D-74C29468D5FD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACEEE62B-DD14-4244-1B18-2356EA63DC77" name="PAYTXNTYP_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>PAYTXNTYP_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>AD132A0E-D1C3-4833-6408-968DFB24A93C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FDAF446-0220-3DBF-105F-EDA42AE4F43B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58DBE63B-E4A7-9904-90D2-3C8AECF86196" name="PAYTXNTYP_PK">
+<sourceConnName>sofrt@xe</sourceConnName>
+<sourceObjSchema>SOFRT</sourceObjSchema>
+<sourceObjName>PAYTXNTYP_PK</sourceObjName>
+<createdBy>vinettes</createdBy>
+<createdTime>2017-04-11 19:07:15 UTC</createdTime>
+<ownerDesignName>Sofort</ownerDesignName>
+<importedID>17DB4AF4-8F22-85DE-A785-C9257298A453</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2C7E7EEF-0CF9-292B-3673-DA966B1F545E</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FDAF446-0220-3DBF-105F-EDA42AE4F43B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
